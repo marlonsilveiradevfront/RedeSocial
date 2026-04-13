@@ -1,0 +1,72 @@
+
+.mySwiper {
+    width: 100%;
+    padding: 5px 2px;
+}
+
+
+.storyContainer {
+    width: 100%;
+    padding: 15px 10px;
+    background-color: #000;
+    max-width: 630px;
+}
+
+.swiperCustom {
+    width: auto !important;
+}
+
+
+.storyItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.storyRing {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.noStory {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #262626;
+}
+
+.imgSpace {
+    width: 60px;
+    height: 60px;
+    background: #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.userImage {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 12px;
+  color: #fff;
+  max-width: 74px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

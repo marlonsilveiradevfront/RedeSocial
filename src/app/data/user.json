@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome": "Marlin",
+        "email": "marlin@gmail.com",
+        "password": "123",
+        "bio": "Desenvolvedor Front",
+        "avatar": ""
+    },
+
+
+    {
+        "id": 2,
+        "nome": "Azuley",
+        "email": "azuley@gmail.com",
+        "password": "1234",
+        "bio": "Desenvolvedor Front",
+        "avatar": ""
+    }
+]

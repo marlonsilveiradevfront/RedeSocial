@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Poppins, Roboto } from 'next/font/google';
+import './globals.css';
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+
+const poppins = Poppins({ 
+  weight: ['400', '700'], 
+  subsets: ['latin'],
+  variable: '--poppins', 
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+
+const roboto = Roboto({ 
+  weight: ['400', '500'], 
+  subsets: ['latin'],
+  variable: '--roboto', 
 });
 
 export const metadata: Metadata = {
@@ -23,8 +28,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
-      <body>{children}</body>
+    <html lang="pt-br" className={`${poppins.variable} ${roboto.variable}`}>
+      <body>
+        {children}
+        </body>
     </html>
   );
 }
