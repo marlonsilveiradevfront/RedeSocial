@@ -1,0 +1,15 @@
+:root {
+  --fundo: linear-gradient(120deg, #5954d0, #8e36c4, #e85649);
+  --button: #0697f7;
+  --text-color: #ffff;
+}
+
+.section {
+  background: var(--fundo);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

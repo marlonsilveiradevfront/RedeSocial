@@ -1,0 +1,78 @@
+.meuSlide {
+  width: 100%;
+  padding: 5px 2px;
+} 
+
+.storyContainer {
+  width: 100%;
+  padding: 15px 10px;
+  background-color: #000;
+  max-width: 650px;
+  position: relative;
+}
+
+.slideCustom {
+  width: auto !important;
+} 
+
+.storyItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.storyCircl {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+}
+
+.noStory {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #262626;
+}
+
+.imgs {
+  width: 90px;
+  height: 90px;
+  background: #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usuarioImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 12px;
+  color: #fff;
+  max-width: 74px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
